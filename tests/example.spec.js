@@ -28,7 +28,7 @@ test('Launch Amazon', async ({ page }) => {
 
     // await page.goto('https://www.makemytrip.com/');
     // const title3 = await page.title();
-    // console.log(title3);
+    console.log(title3);
 
     await page.goto('https://www.facebook.com/');
 
