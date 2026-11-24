@@ -26,9 +26,9 @@ test('Launch Amazon', async ({ page }) => {
         path: "C:\\Users\\laksh\\OneDrive\\Documents\\playwright\\tests\\amazon.png"
     });
 
-    // await page.goto('https://www.makemytrip.com/');
-    // const title3 = await page.title();
-    // console.log(title3);
+    await page.goto('https://www.makemytrip.com/');
+    const title3 = await page.title();
+    console.log(title3);
 
     await page.goto('https://www.facebook.com/');
 
