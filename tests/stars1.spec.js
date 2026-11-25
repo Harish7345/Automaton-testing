@@ -1,4 +1,4 @@
-for (let i=6;i<=6; i++);{
+for (let i=6;i<=6; i++){
     let star="";
     for (let j=1; j<i; j++){
         star += " ";
